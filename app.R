@@ -52,7 +52,8 @@ ui <- fluidPage(# Application title
                 "plot",
                 "Plot Type",
                 c("boxplot", "scatter", "count", "Freq Poly")
-            )
+            ),
+            submitButton(text = "Plot")
         ),
         
         #Plot the data
